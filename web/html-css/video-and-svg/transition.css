@@ -1,0 +1,33 @@
+﻿body {
+    color: black;
+    font-size: 25pt;
+}
+
+@keyframes YUNS {
+    0% {
+        color: blue;
+    }
+
+    35% {
+        color: green;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: width 2s ease, height 3s linear;
+    font-size: 25pt;
+}
+
+    .box:hover {
+        width: 200px;
+        height: 200px;
+        font-size: 25pt;
+      background-color: blue
+    }

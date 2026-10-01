@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="intro"/>
+        <attribute name="authors" value="Bereb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 11:38:29 "/>
+        <attribute name="created" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjA5OjU2OjMxICI7MjY4Nw=="/>
+        <attribute name="edited" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjExOjM4OjI5ICI7MTsyNzk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ab" type="Integer" array="False" size=""/>
+            <output expression="&quot;entrer 1 premier nombre&quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;un deuxi&#232;me&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <assign variable="a" expression="a+b"/>
+            <assign variable="b" expression="a-b"/>
+            <assign variable="a" expression="a-b"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <declare name="ab" type="Integer" array="False" size=""/>
+            <output expression="a" newline="True"/>
+            <assign variable="" expression=""/>
+        </body>
+    </function>
+</flowgorithm>

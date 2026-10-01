@@ -1,0 +1,14 @@
+
+
+document.getElementById("timer").addEventListener("click", () => {
+    if (intervalle) return;
+    intervalle = setInterval(() => {
+        secondes++;
+        document.getElementById("timer").textContent = secondes;
+    }, 1000);
+});
+
+document.getElementById("btn-stop").addEventListener("click", () => {
+    clearInterval(intervalle);
+    intervalle = null;
+});

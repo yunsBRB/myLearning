@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="jours heures minutes secondes"/>
+        <attribute name="authors" value="Bereb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 02:00:54 "/>
+        <attribute name="created" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjExOjM4OjMyICI7MjY4MQ=="/>
+        <attribute name="edited" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjAyOjAwOjU0ICI7MTsyNzgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totalsecondes" type="Integer" array="False" size=""/>
+            <declare name="jours, heures, minutes, secondes" type="Integer" array="False" size=""/>
+            <output expression="&quot;veuillez entrer les secondes&quot;" newline="True"/>
+            <input variable="totalsecondes"/>
+            <assign variable="jours" expression="totalSecondes/86400"/>
+            <assign variable="heures" expression="(totalSecondes mod 86400)/3600"/>
+            <assign variable="minutes" expression="(totalSecondes mod 3600)/60"/>
+            <assign variable="secondes" expression="(totalsecondes/3600 mod 60)"/>
+            <output expression="&quot;Il y a &quot;&amp;jours &amp; &quot;jours&quot; &amp; heures &amp; &quot;heures&quot; &amp; minutes &amp; &quot;minutes&quot;&amp; secondes &amp; &quot;secondes&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

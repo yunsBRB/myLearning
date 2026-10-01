@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exo page 68"/>
+        <attribute name="authors" value="Bereb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 02:54:23 "/>
+        <attribute name="created" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjAyOjExOjExICI7MjY2OQ=="/>
+        <attribute name="edited" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjAyOjU0OjIzICI7MTsyNzg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="3"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="b" expression="9"/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <assign variable="e" expression="9"/>
+            <declare name="c" type="Boolean" array="False" size=""/>
+            <assign variable="c" expression="false"/>
+            <declare name="d" type="Boolean" array="False" size=""/>
+            <assign variable="d" expression="NOT (c)"/>
+            <declare name="exo1" type="Boolean" array="False" size=""/>
+            <assign variable="exo1" expression="a&gt;8"/>
+            <declare name="exo2" type="Boolean" array="False" size=""/>
+            <assign variable="exo2" expression="b==9"/>
+            <declare name="exo3" type="Boolean" array="False" size=""/>
+            <assign variable="exo3" expression="NOT (A!=3)"/>
+            <declare name="exo4" type="Boolean" array="False" size=""/>
+            <assign variable="exo4" expression="NOT(c)"/>
+            <declare name="exo5" type="Boolean" array="False" size=""/>
+            <assign variable="exo5" expression="(A&lt;B)||C"/>
+            <declare name="exo6" type="Boolean" array="False" size=""/>
+            <assign variable="exo6" expression="!((A+B)!=12)"/>
+            <declare name="exo7" type="Boolean" array="False" size=""/>
+            <assign variable="exo7" expression="((B=5)||((E&gt;10)&amp;&amp;(A&lt;8)))"/>
+            <declare name="exo8" type="Boolean" array="False" size=""/>
+            <assign variable="exo8" expression="(((B=5)||((E&gt;10)&amp;&amp;(A&lt;8)))||(A&lt;B)||C)&amp;&amp;C"/>
+        </body>
+    </function>
+</flowgorithm>

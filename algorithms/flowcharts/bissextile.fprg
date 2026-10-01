@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bissextile"/>
+        <attribute name="authors" value="Bereb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 03:59:05 "/>
+        <attribute name="created" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjAzOjMxOjM0ICI7MjY3Nw=="/>
+        <attribute name="edited" value="QmVyZWI7TEFQVE9QLTU3NjJVNEZPOzIwMjYtMDQtMDc7IjAzOjU5OjA1ICI7MTsyNzkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ann&#233;e" type="Integer" array="False" size=""/>
+            <output expression="&quot;entrez une ann&#233;e&quot;" newline="True"/>
+            <input variable="ann&#233;e"/>
+            <if expression="(ann&#233;e%4=0 &amp;&amp; ann&#233;e%100!=0) || (ann&#233;e%400=0)">
+                <then>
+                    <output expression="&quot;Ann&#233;e bissextile&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ann&#233;e non bissextile&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
